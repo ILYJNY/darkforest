@@ -1,0 +1,2 @@
+# 각별 어둠의숲 플러그인 모방
+## 출처 : [<img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" width="30" height="24">](https://www.youtube.com/watch?v=jXmY65_u6T8) <span style="color:#FCDB00">각별유튜브</span>
