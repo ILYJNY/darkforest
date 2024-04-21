@@ -1,4 +1,5 @@
-package io.github.monun.sample.plugin
+package io.github.ILYJNY.darkforest.plugin
+
 
 import net.minecraft.server.level.ServerPlayer
 import net.minecraft.world.entity.Entity

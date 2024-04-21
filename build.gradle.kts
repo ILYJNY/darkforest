@@ -27,10 +27,10 @@ dependencies {
     implementation(kotlin("reflect"))
     paperweight.paperDevBundle(libs.versions.paper)
 
-//    implementation("io.github.monun:kommand-api:latest.release")
-//    implementation("io.github.monun:tap-api:latest.release")
-//    implementation("io.github.monun:invfx-api:latest.release")
-//    implementation("io.github.monun:heartbeat-coroutines:latest.release")
+    implementation("io.github.monun:kommand-api:latest.release")
+    implementation("io.github.monun:tap-api:latest.release")
+    implementation("io.github.monun:invfx-api:latest.release")
+    implementation("io.github.monun:heartbeat-coroutines:latest.release")
 }
 
 extra.apply {
@@ -57,7 +57,7 @@ extra.apply {
         }
 
         requireNotNull(version) { "version is null" }
-        require(version != "latest.release") { "version is latest.release" }
+//        require(version != "latest.release") { "version is latest.release" }
 
         pluginLibraries += "$group:$name:$version"
         set("pluginLibraries", pluginLibraries.joinToString("\n  ") { "- $it" })
